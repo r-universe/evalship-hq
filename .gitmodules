@@ -1,5 +1,9 @@
 [submodule ".registry"]
 	path = .registry
-	url = https://github.com/r-universe-org/cran-to-git
-	shallow = true
+	url = https://github.com/evalship-hq/evalship-hq.r-universe.dev
 	branch = HEAD
+[submodule "tinyeval"]
+	path = tinyeval
+	url = https://github.com/evalship-hq/tinyeval
+	branch = r-universe
+	subdir = packages/r
